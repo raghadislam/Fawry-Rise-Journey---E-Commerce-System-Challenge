@@ -131,3 +131,7 @@ java -cp bin Main
 ```
 
 Or run via your IDE (IntelliJ, Eclipse).
+
+## 📊 UML Class Diagram
+
+![UML Class Diagram](UML_class_diagram.png)

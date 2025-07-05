@@ -22,13 +22,13 @@ public class ProductFactory {
 
     public static IProduct createExpirable(String name, double price, int quantity, LocalDate expiry) {
         ValidatorUtil.validateProduct(name, price, quantity);
-        if (expiry == null) throw new IllegalArgumentException("Expiry date cannot be null");
+        ValidatorUtil.validateExpiry(expiry);
         return new ExpirableDecorator(createBasic(name, price, quantity), expiry);
     }
 
     public static IProduct createShippableExpirable(String name, double price, int quantity, double weight, LocalDate expiry) {
         ValidatorUtil.validateShippable(name, price, quantity, weight);
-        if (expiry == null) throw new IllegalArgumentException("Expiry date cannot be null");
+        ValidatorUtil.validateExpiry(expiry);
         return new ExpirableDecorator(createShippable(name, price, quantity, weight), expiry);
     }
 }
