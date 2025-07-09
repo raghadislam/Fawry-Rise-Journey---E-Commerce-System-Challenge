@@ -115,8 +115,8 @@ Date: 2025-07-05 17:51:57
 
 1. **Clone the project**
    ```bash
-   git clone https://github.com/your-username/java-ecommerce-oop.git
-   cd java-ecommerce-oop
+   git clone https://github.com/raghadislam/Fawry-Rise-Journey---E-Commerce-System-Challenge.git
+   cd Fawry-Rise-Journey---E-Commerce-System-Challenge.git
    ```
 2. **Compile**
 
