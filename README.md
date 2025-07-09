@@ -134,4 +134,12 @@ Or run via your IDE (IntelliJ, Eclipse).
 
 ## 📊 UML Class Diagram
 
+
+
 ![UML Class Diagram](UML_class_diagram.png)
+
+## Demo
+![Demo](E-commerce-Demo.gif)
+
+## Output Screenshot
+![output](output.png)
